@@ -1,5 +1,5 @@
-const right_value = document.getElementById("right_value");
-const wrong_value = document.getElementById("wrong_value");
+const right_btn = document.getElementById("right_btn");
+const wrong_btn = document.getElementById("wrong_btn");
 const total = document.getElementById("total");
 const rule_selector = document.getElementById("rule_selector");
 const score = document.getElementById("score");
@@ -28,8 +28,8 @@ function reset () {
 
 
 function score_view () {
-    right_value.textContent = right_count;
-    wrong_value.textContent = wrong_count;
+    right_btn.textContent = right_count;
+    wrong_btn.textContent = wrong_count;
     total.textContent = total_right_count + " - " + total_wrong_count;
     if (rule_selector.value === "normal") {
         score.textContent = right_count + " - " + wrong_count;
