@@ -32,7 +32,7 @@ function reset () {
 function score_view () {
     right_value.textContent = right_count;
     wrong_value.textContent = wrong_count;
-    total.textContent = "total score: " + total_right_count + " - " + total_wrong_count;
+    total.textContent = total_right_count + " - " + total_wrong_count;
     if (rule_selector.value === "normal") {
         score.textContent = right_count + " - " + wrong_count;
     } else if (rule_selector.value === "ny") {
