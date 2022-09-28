@@ -23,9 +23,7 @@ function wrong_counter () {
 
 function reset () {
     right_count = 0;
-    right_value.textContent = right_count;
     wrong_count = 0;
-    wrong_value.textContent = wrong_count;
 }
 
 
