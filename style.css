@@ -1,0 +1,31 @@
+* {
+  background-color: #ffa;
+}
+
+header {
+  text-align: center;
+}
+
+.whole {
+  text-align: center;
+}
+.whole .rule_selector {
+  width: 100px;
+  height: 25px;
+}
+.whole .score {
+  font-size: 40px;
+}
+.whole .btns {
+  width: 40px;
+  height: 30px;
+}
+.whole .right_btn {
+  background-color: #faa;
+}
+.whole .wrong_btn {
+  background-color: #aaf;
+}
+.whole .reset_btn {
+  background-color: #888;
+}/*# sourceMappingURL=style.css.map */

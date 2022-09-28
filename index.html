@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterApp</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CounterApp</h1>
+    </header>
+    <div class="whole">
+        <div>
+            <select class="rule_selector" id="rule_selector" onchange="score_view()">
+                <option value="normal">normal</option>
+                <option value="ny">NY</option>
+            </select>
+        </div>
+        <div>
+            <h2 class="score" id="score">0 - 0</h2>
+        </div>
+        <div>
+            <button class="btns right_btn" id="right_value" type="button" onclick="right_counter(); score_view()">0</button>
+            <button class="btns wrong_btn" id="wrong_value" type="button" onclick="wrong_counter(); score_view()">0</button>
+            <button class="btns reset_btn" id="reset" type="button" onclick="reset(); score_view()">R</button>
+        </div>
+        <div>
+            <h3>total score:</h3>
+            <h2 class="score" id="total">0 - 0</h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
